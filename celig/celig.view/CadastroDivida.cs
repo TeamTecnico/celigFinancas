@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace celig.view
 {
-    public partial class teste : Form
+    public partial class CadastroDivida : Form
     {
-        public teste()
+        public CadastroDivida()
         {
             InitializeComponent();
         }
