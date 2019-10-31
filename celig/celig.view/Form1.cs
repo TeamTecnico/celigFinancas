@@ -38,8 +38,7 @@ namespace celig.view
             {
                 if (log.validacao == true)
                 {
-                    teste tst = new teste();
-                    tst.Show();
+                   
                 }
                 else
                 {
