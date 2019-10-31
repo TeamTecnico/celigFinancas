@@ -71,8 +71,10 @@ namespace celig.view
         private void button1_Click(object sender, EventArgs e)
         {
             //codigo....
-
+            
+            AbrirFormFilho(new CadastroDivida());
             VerificarProp();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -162,7 +164,6 @@ namespace celig.view
         private void AbrirFormFilho(Form formFilho)
         {
             if (formAtivo!=null)
-            {
                 formAtivo.Close();
                 formAtivo = formFilho;
                 formFilho.TopLevel = false;
@@ -172,7 +173,7 @@ namespace celig.view
                 PnPrincipal.Tag = formFilho;
                 formFilho.BringToFront(); // coloca o form na frente do panel
                 formFilho.Show();
-            }
+            
 
         }
 

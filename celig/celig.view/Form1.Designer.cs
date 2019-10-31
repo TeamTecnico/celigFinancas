@@ -70,9 +70,9 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(135, 218);
+            this.btnEntrar.Location = new System.Drawing.Point(121, 222);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(75, 23);
+            this.btnEntrar.Size = new System.Drawing.Size(75, 34);
             this.btnEntrar.TabIndex = 4;
             this.btnEntrar.Text = "button1";
             this.btnEntrar.UseVisualStyleBackColor = true;
