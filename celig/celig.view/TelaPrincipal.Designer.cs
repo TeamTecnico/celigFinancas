@@ -329,6 +329,7 @@
             this.Controls.Add(this.PnMenuPrincipal);
             this.Name = "TelaPrincipal";
             this.Text = "TelaPrincipal";
+            
             this.PnMenuPrincipal.ResumeLayout(false);
             this.PnSubMenuCategorias.ResumeLayout(false);
             this.PnSubMenuAlertas.ResumeLayout(false);
