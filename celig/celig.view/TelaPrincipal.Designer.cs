@@ -268,16 +268,16 @@
             this.PnRodape.Name = "PnRodape";
             this.PnRodape.Size = new System.Drawing.Size(700, 100);
             this.PnRodape.TabIndex = 1;
+            this.PnRodape.Paint += new System.Windows.Forms.PaintEventHandler(this.PnRodape_Paint);
             // 
             // LbNomeUser
             // 
             this.LbNomeUser.AutoSize = true;
             this.LbNomeUser.Font = new System.Drawing.Font("Goudy Stout", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LbNomeUser.Location = new System.Drawing.Point(351, 45);
+            this.LbNomeUser.Location = new System.Drawing.Point(299, 45);
             this.LbNomeUser.Name = "LbNomeUser";
-            this.LbNomeUser.Size = new System.Drawing.Size(337, 22);
+            this.LbNomeUser.Size = new System.Drawing.Size(0, 22);
             this.LbNomeUser.TabIndex = 3;
-            this.LbNomeUser.Text = "Bem Vindo Usuario";
             // 
             // LbDespesas
             // 

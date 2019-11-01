@@ -15,9 +15,14 @@ namespace celig.view
         public TelaPrincipal()
         {
             InitializeComponent();
-            OcultarInicioSubMenus();
+            OcultarInicioSubMenus();     
         }
+      
 
+       
+        
+            
+        
 
 
         private void OcultarInicioSubMenus()
@@ -153,5 +158,12 @@ namespace celig.view
             VerificarProp();
         }
         #endregion
+
+
+
+        private void PnRodape_Paint(object sender, PaintEventArgs e)
+        {
+            LbNomeUser.Text = "Bem Vindo  " + Form1.User;
+        }
     }
 }

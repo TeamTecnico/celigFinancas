@@ -19,10 +19,9 @@ namespace celig.view
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
+        public static string User;
 
-        }
+       
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
@@ -38,7 +37,9 @@ namespace celig.view
             {
                 if (log.validacao == true)
                 {
-                   
+                    TelaPrincipal telaPrincipal = new TelaPrincipal();
+                    telaPrincipal.Show();
+                    this.Visible = this.Enabled = false;
                 }
                 else
                 {
@@ -49,6 +50,25 @@ namespace celig.view
             {
                 MessageBox.Show("Complete todos os campos");
             }
+
+            User = TxtNome.Text;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtNome_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+       
+
+       
+
+        
         }
     }
-}
+
