@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.TxtNome = new System.Windows.Forms.TextBox();
             this.TxtSenha = new System.Windows.Forms.TextBox();
             this.btnEntrar = new System.Windows.Forms.Button();
@@ -45,7 +46,7 @@
             this.TxtNome.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtNome.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtNome.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.TxtNome.Location = new System.Drawing.Point(380, 67);
+            this.TxtNome.Location = new System.Drawing.Point(412, 68);
             this.TxtNome.Name = "TxtNome";
             this.TxtNome.Size = new System.Drawing.Size(209, 27);
             this.TxtNome.TabIndex = 1;
@@ -59,7 +60,7 @@
             this.TxtSenha.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtSenha.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtSenha.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.TxtSenha.Location = new System.Drawing.Point(380, 120);
+            this.TxtSenha.Location = new System.Drawing.Point(412, 122);
             this.TxtSenha.Name = "TxtSenha";
             this.TxtSenha.Size = new System.Drawing.Size(209, 27);
             this.TxtSenha.TabIndex = 2;
@@ -73,12 +74,12 @@
             this.btnEntrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEntrar.ForeColor = System.Drawing.Color.LightGray;
-            this.btnEntrar.Location = new System.Drawing.Point(314, 218);
+            this.btnEntrar.Location = new System.Drawing.Point(348, 187);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(408, 40);
-            this.btnEntrar.TabIndex = 3;
+            this.btnEntrar.Size = new System.Drawing.Size(338, 34);
+            this.btnEntrar.TabIndex = 4;
             this.btnEntrar.Text = "ENTRAR";
-            this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.UseVisualStyleBackColor = true;
             this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // panel1
@@ -93,7 +94,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::celig.view.Properties.Resources.bagofmoney_dollar_4399;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(63, 83);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(115, 127);

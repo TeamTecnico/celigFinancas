@@ -42,7 +42,6 @@ namespace Celig.Model
 
         public void addParameter(string nome, object valor, DbType tipo)
         {
-
             SQLiteParameter param = new SQLiteParameter(nome, valor);
             param.DbType = tipo;
             listaParameter.Add(param);
@@ -64,6 +63,25 @@ namespace Celig.Model
             dr = cmd.ExecuteReader();
             return dr;
         }
+
+        public int ExecuteNoQuery(string _sql)
+        {
+            SQLiteCommand cmd = new SQLiteCommand();
+            cmd.CommandText = _sql;
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = conn;
+            if (listaParameter != null)
+            {
+                foreach (SQLiteParameter parameter in listaParameter)
+                {
+                    cmd.Parameters.Add(parameter);
+                }
+            }
+            int resultado = cmd.ExecuteNonQuery();
+            return resultado;
+
+        }
+
 
     }
 }

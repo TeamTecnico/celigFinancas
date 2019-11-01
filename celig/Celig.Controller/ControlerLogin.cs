@@ -17,5 +17,12 @@ namespace Celig.Controller
             return log.validacao;
         }
 
+        public int CadastroUser(CadastroUser cad)
+        {
+            int resultado;
+            CadastroUserDao dao = new CadastroUserDao();
+            return resultado = dao.CadastroUsuario(cad);
+        }
+
     }
 }
