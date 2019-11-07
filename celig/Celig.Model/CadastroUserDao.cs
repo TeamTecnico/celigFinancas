@@ -20,7 +20,7 @@ namespace Celig.Model
         public int CadastroUsuario(CadastroUser dados)
         {
             int resultado;
-            string query = "INSERT INTO Login (userName, password)" + "VALUES (@user, @pass)";
+            string query = "INSERT INTO Login (USER, SENHA)" + "VALUES (@user, @pass)";
 
             try
             {

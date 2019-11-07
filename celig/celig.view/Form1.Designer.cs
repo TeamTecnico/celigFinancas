@@ -125,6 +125,7 @@
             this.LinkCadUser.TabIndex = 0;
             this.LinkCadUser.TabStop = true;
             this.LinkCadUser.Text = "Cadastrar-se";
+            this.LinkCadUser.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkCadUser_LinkClicked);
             // 
             // Form1
             // 
