@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace celig.view
 {
-    public partial class TelaCadastroUser : Form
+    public partial class CadCategoria : Form
     {
-        public TelaCadastroUser()
+        public CadCategoria()
         {
             InitializeComponent();
-        }
-
-        private void TelaCadastroUser_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
