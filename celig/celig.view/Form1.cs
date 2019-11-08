@@ -64,11 +64,11 @@ namespace celig.view
             
         }
 
-       
-
-       
-
-        
+        private void LinkCadUser_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+             TelaCadastroUser tela = new TelaCadastroUser();
+             tela.Show();
         }
+    }
     }
 

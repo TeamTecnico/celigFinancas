@@ -13,7 +13,7 @@ namespace Celig.Model
 
         SQLiteConnection conn;
 
-        string patch = @"C:\Users\18000040166\Documents\GitHub\celigFinancas\celig\celigDataBase.db";
+        string patch = @"C:\Users\18000040167\Documents\GitHub\celigFinancas\celig\celigDataBase.db";
         List<SQLiteParameter> listaParameter = new List<SQLiteParameter>();
 
         public DataBase()

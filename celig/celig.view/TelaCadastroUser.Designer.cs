@@ -99,6 +99,7 @@
             this.BtnTelaCadastrarUser.TabIndex = 6;
             this.BtnTelaCadastrarUser.Text = "Cadastrar";
             this.BtnTelaCadastrarUser.UseVisualStyleBackColor = false;
+            this.BtnTelaCadastrarUser.Click += new System.EventHandler(this.BtnTelaCadastrarUser_Click);
             // 
             // BtnVoltarUser
             // 

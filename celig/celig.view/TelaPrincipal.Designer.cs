@@ -251,7 +251,7 @@
             this.btnContas.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.btnContas.Size = new System.Drawing.Size(200, 51);
             this.btnContas.TabIndex = 1;
-            this.btnContas.Text = "CONTAS";
+            this.btnContas.Text = "DESPESAS";
             this.btnContas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnContas.UseVisualStyleBackColor = true;
             this.btnContas.Click += new System.EventHandler(this.btnContas_Click);
@@ -329,7 +329,6 @@
             this.Controls.Add(this.PnMenuPrincipal);
             this.Name = "TelaPrincipal";
             this.Text = "TelaPrincipal";
-            
             this.PnMenuPrincipal.ResumeLayout(false);
             this.PnSubMenuCategorias.ResumeLayout(false);
             this.PnSubMenuAlertas.ResumeLayout(false);
