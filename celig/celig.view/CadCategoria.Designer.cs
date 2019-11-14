@@ -47,6 +47,7 @@
             this.btnCad.TabIndex = 1;
             this.btnCad.Text = "Cadastrar";
             this.btnCad.UseVisualStyleBackColor = true;
+            this.btnCad.Click += new System.EventHandler(this.btnCad_Click);
             // 
             // CadCategoria
             // 

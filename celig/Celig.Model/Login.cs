@@ -26,6 +26,10 @@ namespace Celig.Model
         public bool validacao { get; set; }
 
 
+        public override string ToString()
+        {
+            return this.userName;
+        }
 
     }
 }

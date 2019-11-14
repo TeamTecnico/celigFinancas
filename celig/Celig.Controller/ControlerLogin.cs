@@ -24,5 +24,8 @@ namespace Celig.Controller
             return resultado = dao.CadastroUsuario(cad);
         }
 
+
+     
+
     }
 }

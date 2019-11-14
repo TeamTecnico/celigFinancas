@@ -33,7 +33,7 @@ namespace celig.view
 
         }
 
-        private void VerificarProp()
+        public void VerificarProp()
         {
             if (PnSubMenuContas.Visible == true)
                 PnSubMenuContas.Visible = false;
@@ -77,7 +77,7 @@ namespace celig.view
         {
             //codigo....
             
-            AbrirFormFilho(new CadastroDivida());
+            AbrirFormFilho(new DespCad());
             VerificarProp();
 
         }
@@ -172,7 +172,7 @@ namespace celig.view
         // metodo para colocar um novo forms no panel central
         private Form formAtivo = null;
 
-        private void AbrirFormFilho(Form formFilho)
+        public void AbrirFormFilho(Form formFilho)
         {
             if (formAtivo!=null)
                 formAtivo.Close();

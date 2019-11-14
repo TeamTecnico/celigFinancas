@@ -55,6 +55,9 @@
   <ItemGroup>
     <Compile Include="CadastroUser.cs" />
     <Compile Include="CadastroUserDao.cs" />
+    <Compile Include="CadCategoria.cs" />
+    <Compile Include="CadCategoriaDao.cs" />
+    <Compile Include="Categoria.cs" />
     <Compile Include="DataBase.cs" />
     <Compile Include="Login.cs" />
     <Compile Include="LoginDao.cs" />
